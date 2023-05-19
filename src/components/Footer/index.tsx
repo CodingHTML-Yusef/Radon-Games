@@ -20,7 +20,7 @@ export default function Navbar(): JSX.Element {
             icon="fa-discord"
           />
           <IconButton
-            href="https://github.com/Radon-Games/Radon-Games"
+            href="https://github.com/"
             text="GitHub"
             type="fa-brands"
             icon="fa-github"
@@ -29,7 +29,7 @@ export default function Navbar(): JSX.Element {
         <span class="font-semibold">
           <a
             class="hover:underline hover:text-amber-500 transition-all"
-            href={`https://github.com/Radon-Games/Radon-Games/releases/tag/v${version}`}
+            href={`https://github.com/`}
             target="_blank"
           >
             <i class="fa-regular fa-code-branch"></i> v{version}
