@@ -20,11 +20,12 @@ export default function Index(): JSX.Element {
       "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8517735295733237";
     document.head.appendChild(ads);
   });
-
+    })
+</script>
   return (
     <main>
       <section class="w-full h-[calc(100vh-64px)] flex flex-col gap-10 items-center justify-center px-8 sm:px-16 md:px-20 lg:px-32">
-        <img src={banner} alt="Radon Games" />
+        <img src="https://cdn.glitch.global/e15741ca-f3f8-4263-af96-21cfc1426961/Screenshot_2023-03-25_11.33.57_AM-removebg-preview.png?v=1679758817640" alt="Glatic Games" />
         <p class="text-center">
           An open-source unblocked games website built with simplicity in mind.
         </p>
@@ -34,7 +35,12 @@ export default function Index(): JSX.Element {
 
       <section>
         <h1 class="text-3xl text-center">Featured</h1>
-
+<script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+    new Crate({
+        server: '1054391517185327195', // Glatic Games
+        channel: '1054391518854660192' // #💬│𝘔𝘢𝘪𝘯-𝘊𝘩𝘢𝘵
+    })
+</script>
         <Slider>
           {...featured.map((feature: Feature): JSX.Element => {
             return (
