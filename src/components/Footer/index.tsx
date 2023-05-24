@@ -56,6 +56,12 @@ export default function Navbar(): JSX.Element {
             text="Report"
             href="https://docs.google.com/forms/d/e/1FAIpQLSfSAYTIV4AtdhmNkA7YpGAZgaIzgOM3U4_Ie997L-ZskxiC5g/viewform?embedded=true"
           />
+<script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+    new Crate({
+        server: '1054391517185327195', // Glatic Games
+        channel: '1054391518854660192' // #💬│𝘔𝘢𝘪𝘯-𝘊𝘩𝘢𝘵
+    })
+</script>
         </div>
       </div>
     </footer>
