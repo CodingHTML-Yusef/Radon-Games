@@ -35,12 +35,6 @@ export default function Index(): JSX.Element {
 
       <section>
         <h1 class="text-3xl text-center">Featured</h1>
-<script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
-    new Crate({
-        server: '1054391517185327195', // Glatic Games
-        channel: '1054391518854660192' // #💬│𝘔𝘢𝘪𝘯-𝘊𝘩𝘢𝘵
-    })
-</script>
         <Slider>
           {...featured.map((feature: Feature): JSX.Element => {
             return (
